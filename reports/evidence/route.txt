@@ -1,0 +1,346 @@
+{
+  "@timestamp": [
+    "2026-07-20T16:45:23.529Z"
+  ],
+  "agent.ephemeral_id": [
+    "e4831a17-8bc5-4271-ae3e-9005fa082a8d"
+  ],
+  "agent.id": [
+    "41460324-727e-4d6f-8b5d-b4af6959a19e"
+  ],
+  "agent.name": [
+    "Sepisecurity"
+  ],
+  "agent.name.text": [
+    "Sepisecurity"
+  ],
+  "agent.type": [
+    "filebeat"
+  ],
+  "agent.version": [
+    "8.19.18"
+  ],
+  "data_stream.dataset": [
+    "windows.sysmon_operational"
+  ],
+  "data_stream.namespace": [
+    "default"
+  ],
+  "data_stream.type": [
+    "logs"
+  ],
+  "ecs.version": [
+    "8.17.0"
+  ],
+  "elastic_agent.id": [
+    "41460324-727e-4d6f-8b5d-b4af6959a19e"
+  ],
+  "elastic_agent.snapshot": [
+    false
+  ],
+  "elastic_agent.version": [
+    "8.19.18"
+  ],
+  "event.action": [
+    "Process creation"
+  ],
+  "event.agent_id_status": [
+    "verified"
+  ],
+  "event.category": [
+    "process"
+  ],
+  "event.code": [
+    "1"
+  ],
+  "event.created": [
+    "2026-07-20T16:45:24.709Z"
+  ],
+  "event.dataset": [
+    "windows.sysmon_operational"
+  ],
+  "event.ingested": [
+    "2026-07-20T16:45:33.000Z"
+  ],
+  "event.kind": [
+    "event"
+  ],
+  "event.module": [
+    "windows"
+  ],
+  "event.provider": [
+    "Microsoft-Windows-Sysmon"
+  ],
+  "event.type": [
+    "start"
+  ],
+  "host.architecture": [
+    "x86_64"
+  ],
+  "host.hostname": [
+    "Sepisecurity"
+  ],
+  "host.id": [
+    "b913b8a8-998f-4272-b873-78b82db8d4a8"
+  ],
+  "host.ip": [
+    "fe80::e942:a086:8c4c:5508",
+    "192.168.56.1",
+    "2600:8802:3800:ed:d0ed:795f:337d:caa1",
+    "fde8:6c0e:3b1d:0:3fc2:1891:d98f:52ff",
+    "fde9:37c5:a61e:0:4e39:4a38:2341:19df",
+    "2600:8802:3800:ed:b1b2:bd8b:acc0:b812",
+    "fde8:6c0e:3b1d:0:b1b2:bd8b:acc0:b812",
+    "fde9:37c5:a61e:0:b1b2:bd8b:acc0:b812",
+    "fe80::7c5a:bedc:48a5:9a5a",
+    "10.168.168.188",
+    "fe80::b5ce:7806:8555:a6c3",
+    "169.254.10.187",
+    "fe80::98ae:7c01:10f8:1f25",
+    "169.254.107.255",
+    "fe80::6d99:e48:51bb:dead",
+    "169.254.15.24",
+    "fe80::2679:af42:9914:1981",
+    "169.254.209.32",
+    "fe80::490:dab2:236f:23ae",
+    "192.168.132.1",
+    "fe80::b1a3:4423:433a:54dc",
+    "192.168.247.1",
+    "fe80::a644:1dcb:c6ce:91a1",
+    "169.254.208.136"
+  ],
+  "host.mac": [
+    "00-50-56-C0-00-01",
+    "00-50-56-C0-00-08",
+    "00-72-EE-B0-2D-81",
+    "00-72-EE-B0-2D-82",
+    "00-72-EE-B0-2D-85",
+    "02-72-EE-B0-2D-81",
+    "0A-00-27-00-00-08",
+    "0A-00-27-00-00-19",
+    "C8-A3-62-C7-2A-61"
+  ],
+  "host.name": [
+    "sepisecurity"
+  ],
+  "host.os.build": [
+    "26200.8894"
+  ],
+  "host.os.family": [
+    "windows"
+  ],
+  "host.os.kernel": [
+    "10.0.26100.8894 (WinBuild.160101.0800)"
+  ],
+  "host.os.name": [
+    "Windows 11 Pro"
+  ],
+  "host.os.name.text": [
+    "Windows 11 Pro"
+  ],
+  "host.os.platform": [
+    "windows"
+  ],
+  "host.os.type": [
+    "windows"
+  ],
+  "host.os.version": [
+    "10.0"
+  ],
+  "input.type": [
+    "winlog"
+  ],
+  "log.level": [
+    "information"
+  ],
+  "message": [
+    "Process Create:\nRuleName: -\nUtcTime: 2026-07-20 16:45:23.529\nProcessGuid: {b913b8a8-50a3-6a5e-7782-00000000ed00}\nProcessId: 15584\nImage: C:\\Windows\\System32\\ROUTE.EXE\nFileVersion: 10.0.26100.8737 (WinBuild.160101.0800)\nDescription: TCP/IP Route Command\nProduct: Microsoft® Windows® Operating System\nCompany: Microsoft Corporation\nOriginalFileName: route.exe\nCommandLine: route  print\nCurrentDirectory: C:\\Windows\\System32\\\nUser: Sepisecurity\\sepeh\nLogonGuid: {b913b8a8-80b4-6a5d-87c3-750500000000}\nLogonId: 0x575C387\nTerminalSessionId: 1\nIntegrityLevel: High\nHashes: SHA256=62694B622AFE6ACF4349672FE75E28C02EA619768FEC4238B021CA8F3741DE3C\nParentProcessGuid: {b913b8a8-4ee4-6a5e-da80-00000000ed00}\nParentProcessId: 28768\nParentImage: C:\\Windows\\System32\\cmd.exe\nParentCommandLine: \"C:\\Windows\\system32\\cmd.exe\" \nParentUser: Sepisecurity\\sepeh"
+  ],
+  "process.args": [
+    "route",
+    "print"
+  ],
+  "process.args_count": [
+    2
+  ],
+  "process.command_line": [
+    "route  print"
+  ],
+  "process.command_line.text": [
+    "route  print"
+  ],
+  "process.entity_id": [
+    "{b913b8a8-50a3-6a5e-7782-00000000ed00}"
+  ],
+  "process.executable": [
+    "C:\\Windows\\System32\\ROUTE.EXE"
+  ],
+  "process.executable.caseless": [
+    "c:\\windows\\system32\\route.exe"
+  ],
+  "process.executable.text": [
+    "C:\\Windows\\System32\\ROUTE.EXE"
+  ],
+  "process.hash.sha256": [
+    "62694b622afe6acf4349672fe75e28c02ea619768fec4238b021ca8f3741de3c"
+  ],
+  "process.name": [
+    "ROUTE.EXE"
+  ],
+  "process.name.caseless": [
+    "route.exe"
+  ],
+  "process.name.text": [
+    "ROUTE.EXE"
+  ],
+  "process.parent.args": [
+    "C:\\Windows\\system32\\cmd.exe"
+  ],
+  "process.parent.args_count": [
+    1
+  ],
+  "process.parent.command_line": [
+    "\"C:\\Windows\\system32\\cmd.exe\" "
+  ],
+  "process.parent.command_line.text": [
+    "\"C:\\Windows\\system32\\cmd.exe\" "
+  ],
+  "process.parent.entity_id": [
+    "{b913b8a8-4ee4-6a5e-da80-00000000ed00}"
+  ],
+  "process.parent.executable": [
+    "C:\\Windows\\System32\\cmd.exe"
+  ],
+  "process.parent.executable.text": [
+    "C:\\Windows\\System32\\cmd.exe"
+  ],
+  "process.parent.name": [
+    "cmd.exe"
+  ],
+  "process.parent.name.text": [
+    "cmd.exe"
+  ],
+  "process.parent.pid": [
+    28768
+  ],
+  "process.pe.company": [
+    "Microsoft Corporation"
+  ],
+  "process.pe.description": [
+    "TCP/IP Route Command"
+  ],
+  "process.pe.file_version": [
+    "10.0.26100.8737 (WinBuild.160101.0800)"
+  ],
+  "process.pe.original_file_name": [
+    "route.exe"
+  ],
+  "process.pe.product": [
+    "Microsoft® Windows® Operating System"
+  ],
+  "process.pid": [
+    15584
+  ],
+  "process.working_directory": [
+    "C:\\Windows\\System32\\"
+  ],
+  "process.working_directory.text": [
+    "C:\\Windows\\System32\\"
+  ],
+  "related.hash": [
+    "62694b622afe6acf4349672fe75e28c02ea619768fec4238b021ca8f3741de3c"
+  ],
+  "related.user": [
+    "sepeh"
+  ],
+  "user.domain": [
+    "Sepisecurity"
+  ],
+  "user.id": [
+    "S-1-5-18"
+  ],
+  "user.name": [
+    "sepeh"
+  ],
+  "user.name.text": [
+    "sepeh"
+  ],
+  "winlog.api": [
+    "wineventlog"
+  ],
+  "winlog.channel": [
+    "Microsoft-Windows-Sysmon/Operational"
+  ],
+  "winlog.computer_name": [
+    "Sepisecurity"
+  ],
+  "winlog.event_data.Company": [
+    "Microsoft Corporation"
+  ],
+  "winlog.event_data.Description": [
+    "TCP/IP Route Command"
+  ],
+  "winlog.event_data.FileVersion": [
+    "10.0.26100.8737 (WinBuild.160101.0800)"
+  ],
+  "winlog.event_data.IntegrityLevel": [
+    "High"
+  ],
+  "winlog.event_data.LogonGuid": [
+    "{b913b8a8-80b4-6a5d-87c3-750500000000}"
+  ],
+  "winlog.event_data.LogonId": [
+    "0x575c387"
+  ],
+  "winlog.event_data.ParentUser": [
+    "Sepisecurity\\sepeh"
+  ],
+  "winlog.event_data.Product": [
+    "Microsoft® Windows® Operating System"
+  ],
+  "winlog.event_data.TerminalSessionId": [
+    "1"
+  ],
+  "winlog.event_id": [
+    "1"
+  ],
+  "winlog.opcode": [
+    "Info"
+  ],
+  "winlog.process.pid": [
+    5864
+  ],
+  "winlog.process.thread.id": [
+    9068
+  ],
+  "winlog.provider_guid": [
+    "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+  ],
+  "winlog.provider_name": [
+    "Microsoft-Windows-Sysmon"
+  ],
+  "winlog.record_id": [
+    "3807781"
+  ],
+  "winlog.task": [
+    "Process terminated (rule: ProcessTerminate)"
+  ],
+  "winlog.user.domain": [
+    "NT AUTHORITY"
+  ],
+  "winlog.user.identifier": [
+    "S-1-5-18"
+  ],
+  "winlog.user.name": [
+    "SYSTEM"
+  ],
+  "winlog.user.type": [
+    "User"
+  ],
+  "winlog.version": [
+    5
+  ],
+  "_id": "GNBrgJ8B_aIFSL7sJNme",
+  "_index": ".ds-logs-windows.sysmon_operational-default-2026.07.09-000001",
+  "_score": null
+}
